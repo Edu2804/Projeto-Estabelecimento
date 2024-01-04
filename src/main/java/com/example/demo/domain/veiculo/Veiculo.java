@@ -31,14 +31,5 @@ public class Veiculo {
         this.tipo =data.tipo();
     }
 
-    public void atualizaDados(VeiculoUpdateDTO data) {
-        this.id = data.id();
-        this.marca = data.marca();
-        this.modelo = data.modelo();
-        this.cor = data.cor();
-        this.placa = data.placa();
-        this.tipo =data.tipo();
-    }
-
 }
 

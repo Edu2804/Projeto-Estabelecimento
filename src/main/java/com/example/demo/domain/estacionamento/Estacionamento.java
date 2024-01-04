@@ -32,15 +32,5 @@ public class Estacionamento {
         this.qntVagaCarro = data.qntVagaCarro();
     }
 
-    public void atualizaDados(EstacionamentoUpdateDTO dados) {
-        this.id = dados.id();
-        this.nome = dados.nome();
-        this.cnpj = dados.cnpj();
-        this.endereco = dados.endereco();
-        this.telefone = dados.telefone();
-        this.qntVagaMoto = dados.qntVagaMoto();
-        this.qntVagaCarro = dados.qntVagaCarro();
-
-    }
 
 }
